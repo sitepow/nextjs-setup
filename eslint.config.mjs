@@ -18,6 +18,8 @@ const eslintConfig = [
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/no-unused-vars': 'warn',
       '@typescript-eslint/no-empty-object-type': 'warn',
+      '@typescript-eslint/prefer-nullish-coalescing': 'error',
+      '@typescript-eslint/prefer-optional-chain': 'error',
       'import/order': [
         'error',
         {
