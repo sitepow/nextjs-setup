@@ -10,9 +10,11 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.84.1",
     "@tanstack/react-query-devtools": "^5.84.1",
     "@trpc/client": "^11.4.4",
     "@trpc/server": "^11.4.4",
+    "@trpc/tanstack-react-query": "^11.4.4",
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
     "clsx": "^2.1.1",
