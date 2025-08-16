@@ -5,15 +5,9 @@ import { useQuery } from '@tanstack/react-query'
 
 const HomePage = () => {
   const trpc = useTRPC()
-  const { data: user } = useQuery(trpc.user.getUser.queryOptions())
+  useQuery(trpc.user.getUsers.queryOptions())
 
-  return (
-    <div className='flex flex-col'>
-      <span>
-        {user?.id} {user?.first_name} {user?.email}
-      </span>
-    </div>
-  )
+  return <div></div>
 }
 
 export default HomePage
