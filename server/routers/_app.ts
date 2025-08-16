@@ -1,8 +1,8 @@
 import { router } from '../trpc'
-import { userRouter } from './user'
+import { demoRouter } from './user'
 
 const appRouter = router({
-  user: userRouter,
+  demo: demoRouter,
 })
 
 export { appRouter }
