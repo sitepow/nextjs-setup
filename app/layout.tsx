@@ -1,6 +1,7 @@
 import { IBM_Plex_Sans_Thai } from 'next/font/google'
 
 import type { Metadata } from 'next'
+
 import './globals.css'
 import QueryProviders from '@/providers/query-provider'
 

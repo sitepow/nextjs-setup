@@ -1,13 +1,14 @@
 'use client'
 
-import { useTRPC } from '@/utils/trpc'
 import { useQuery } from '@tanstack/react-query'
+
+import { useTRPC } from '@/utils/trpc'
 
 const HomePage = () => {
   const trpc = useTRPC()
   useQuery(trpc.user.getUsers.queryOptions())
 
-  return <div></div>
+  return <div />
 }
 
 export default HomePage
