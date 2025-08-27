@@ -7,6 +7,7 @@ import QueryProviders from '@/providers/query-provider'
 
 const IBMPlexSansThai = IBM_Plex_Sans_Thai({
   weight: ['400', '700'],
+  subsets: ['latin', 'thai'],
 })
 
 export const metadata: Metadata = {
